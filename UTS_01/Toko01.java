@@ -8,7 +8,7 @@ public class Toko01 {
         System.out.print("Masukkan nama Anda: ");
         String nama = sc.nextLine();
 
-        // Variable
+        // Variable 
         double totalHarga = 0;
         double totalDiskon = 0;
         int jmlProduk = 0;

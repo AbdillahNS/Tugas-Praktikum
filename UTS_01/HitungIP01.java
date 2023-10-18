@@ -13,7 +13,7 @@ public class HitungIP01 {
         double totalNilai = 0;
         String lanjutInputNilai = "y";
 
-        // Inputannya disini
+        // Inputannya disini 
         while (lanjutInputNilai.equalsIgnoreCase("y")) {
             System.out.print("Nama Mata Kuliah: ");
             String namaMatkul = sc.nextLine();
