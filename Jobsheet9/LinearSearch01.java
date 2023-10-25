@@ -22,6 +22,9 @@ public class LinearSearch01 {
             if (arrayInt[i] == key) {
                 hasil = i;
                 break;
+            } else {
+                System.out.print("key tidak ditemukan");
+                System.exit(0);
             }
         }
 
