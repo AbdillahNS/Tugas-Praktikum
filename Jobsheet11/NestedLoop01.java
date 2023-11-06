@@ -7,10 +7,14 @@ public class NestedLoop01 {
 
         for (int i = 0; i < temps.length; i++) {
             System.out.println("Kota ke-" + i);
+            double total = 0.0;
             for (int j = 0; j < temps[0].length; j++) {
                 System.out.print("Hari ke-" + (j + 1) + ": ");
                 temps[i][j] = scanner.nextDouble();
+                total += temps[i][j];
             }
+            double rataRata = total / temps[0].length;
+            System.out.println("Rata-rata suhu : " + rataRata);
             System.out.println();
         }
 
