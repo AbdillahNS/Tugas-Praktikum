@@ -19,4 +19,4 @@ public class Percobaan101 {
         System.out.println(faktorialRekursif(5));
         System.out.println(faktorialIteratif(5));    
     }
-}
+} 
