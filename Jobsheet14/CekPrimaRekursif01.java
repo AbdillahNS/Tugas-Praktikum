@@ -1,14 +1,14 @@
 import java.util.Scanner;
 
 public class CekPrimaRekursif01 {
-    static boolean isPrime(int n, int divisor) {
-        if (divisor == 1) {
+    static boolean cekPrima(int n, int i) {
+        if (i == 1) {
             return true;
         }
-        if (n % divisor == 0) {
+        if (n % i == 0) {
             return false;
         }
-        return isPrime(n, divisor - 1);
+        return cekPrima(n, i - 1);
     }
 
     public static void main(String[] args) {
@@ -17,7 +17,7 @@ public class CekPrimaRekursif01 {
         System.out.print("Masukkan bilangan n: ");
         int n = sc.nextInt();
 
-        if (isPrime(n, n - 1)) {
+        if (cekPrima(n, n - 1)) {
             System.out.println(n + " adalah bilangan prima.");
         } else {
             System.out.println(n + " bukan bilangan prima.");
