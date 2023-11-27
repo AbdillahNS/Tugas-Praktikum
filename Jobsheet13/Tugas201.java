@@ -11,7 +11,7 @@ public class Tugas201 {
         System.out.print("Masukkan jumlah minggu/tugas: ");
         int jumlahMinggu = sc.nextInt();
 
-        // Inisialisasi array sesuai dengan input pengguna
+        // Inisialisasi array sesuai dengan input pengguna 
         nilai = new int[jumlahMahasiswa][jumlahMinggu];
         nama = new String[jumlahMahasiswa];
 
