@@ -4,7 +4,7 @@ public class Percobaan301 {
         if (tahun == 0) {
             return (saldo);
         } else {
-            return (1.11 * saldo + hitungLaba(saldo, tahun - 1));
+            return (1.11 * hitungLaba(saldo, tahun - 1));
         }
     }
     public static void main(String[] args) {
@@ -20,4 +20,4 @@ public class Percobaan301 {
         System.out.println("Jumlah saldo setelah " + tahun + " tahun : ");
         System.out.println(hitungLaba(saldoAwal, tahun));
     }
-} 
+}
