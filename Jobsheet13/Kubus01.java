@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 public class Kubus01 {
     // Fungsi hitungLuas
     static int hitungLuas(int sisi) {
