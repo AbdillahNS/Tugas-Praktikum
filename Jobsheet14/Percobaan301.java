@@ -14,7 +14,7 @@ public class Percobaan301 {
 
         System.out.print("Jumlah saldo awal : ");
         saldoAwal = sc.nextInt();
-        System.out.println("Lamanya investasi (tahun) :");
+        System.out.print("Lamanya investasi (tahun) : ");
         tahun = sc.nextInt();
 
         System.out.println("Jumlah saldo setelah " + tahun + " tahun : ");
