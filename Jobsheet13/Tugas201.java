@@ -25,7 +25,7 @@ public class Tugas201 {
         System.out.println("========================================");
         mahasiswaTertinggi();
     }
-
+// Fungsi menginputkan data nilai (a)
     public static void inputNamaMahasiswa() {
         for (int i = 0; i < nama.length; i++) {
             System.out.print("Masukkan nama mahasiswa ke-" + (i + 1) + ": ");
@@ -42,7 +42,7 @@ public class Tugas201 {
             }
         }
     }
-
+// Fungsi menampilkan seluruh nilai (b)
     public static void tampilNilai() {
         for (int i = 0; i < nama.length; i++) {
             System.out.print(nama[i] + " : ");
@@ -55,7 +55,7 @@ public class Tugas201 {
             System.out.println();
         }
     }
-
+// Fungsi mencari minggu dengan nilai tertinggi (c)
     public static void mingguTertinggi() {
         int maxValue = nilaiTertinggi(nilai);
         for (int i = 0; i < nilai.length; i++) {
@@ -66,7 +66,7 @@ public class Tugas201 {
             }
         }
     }
-
+// Fungsi mencari mahasiswa nilai tertinggi (d)
     public static void mahasiswaTertinggi() {
         int maxValue = nilaiTertinggi(nilai);
         for (int i = 0; i < nilai.length; i++) {
