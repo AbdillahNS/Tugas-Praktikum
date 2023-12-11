@@ -18,8 +18,8 @@ public class Kubus01 {
     // Fungsi main
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        int sisi, volume, luasPermukaan;
-
+        int sisi, volume, luasPermukaan;      
+        
         System.out.println("Masukkan panjang sisi kubus:");
         sisi = input.nextInt();
 
